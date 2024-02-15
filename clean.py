@@ -27,3 +27,4 @@ if __name__ == '__main__':
     cleaned_data = clean_data(args.input1, args.input2)
     cleaned_data.to_csv(args.output, index=False)
 
+    print("Output file shape:", cleaned_data.shape)
